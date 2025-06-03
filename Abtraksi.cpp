@@ -18,3 +18,10 @@ void display(){
 
 };
 
+int main (){
+    abstraksiklas ak;
+    ak.setXy("Yogyarkata","kampus");
+    ak.display();
+
+    return 0;
+}
