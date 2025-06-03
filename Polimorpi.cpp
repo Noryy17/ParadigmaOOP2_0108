@@ -4,6 +4,7 @@ using namespace std;
 class seseorang {
     public:
     virtual void pesan () = 0;
+    //virtual void pesan
 };
 
 class joko : public seseorang {
@@ -29,6 +30,8 @@ int main (){
     obyek ->pesan();
     obyek =&b;
     obyek ->pesan();
+    //a.seseorang :: pesan ();
+    //b.seseorang :: pesan ();
 
     return 0;
 }
