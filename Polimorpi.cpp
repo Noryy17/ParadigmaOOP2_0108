@@ -19,3 +19,9 @@ class lia :public seseorang{
         cout << "Pesan Dari lia" <<endl;
     }
 };
+
+int main (){
+    seseorang* obyek;
+    joko a;
+    lia b;
+}
